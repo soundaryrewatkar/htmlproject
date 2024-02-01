@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Enjoy Programming
+        <link rel="icon" href="/project_day2/Resume/jy.png">
+    </title>
+    <link rel="stylesheet" href="formstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- page2 -->
+    <div
+        style="background-image:url(https://e1.pxfuel.com/desktop-wallpaper/595/62/desktop-wallpaper-full-stack-web-development-full-stack-developer-thumbnail.jpg); background-size: cover; background-repeat: no-repeat; height: 1000px">
+        <form action="">
+            <fieldset>
+                <!-- bordering -->
+                <legend><h1 class="heading">Enjoy Programming</h1></legend>
+                <!-- time and date selection -->
+                <label class="details" for="timings">Prferred Timings:&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                <input type="time"> &emsp;&emsp;to&emsp;&emsp;<input type="time">
+                <br><br>
+                <label for="dates" class="details">Prferred Batch Dates:&emsp;&emsp;&emsp;</label>
+                <input type="date"> &emsp;&emsp;to&emsp;&emsp;<input type="date">
+                <br><br>
+                <!-- personal information -->
+                <label class="details" for="age">Date of Birth:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                <input type="date" id="age"><br><br>
+                <label class="details" for="">Age:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                <input type="number" max="98" min="3"><br><br>
+                <!-- email -->
+                <label for="email" class="details">Email:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                <input type="text" placeholder="enter your email">
+                <br><br>
+                <!-- phone number -->
+                <label class="details" for="number">Contact No.:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                <select name="number" id="nation">
+                    <option value="+91Ind">+91</option>
+                    <option value="+1USA">+1</option>
+                    <option value="+44UK">+44</option>
+                    <option value="+61AUS">+61</option>
+                    <option value="+81JAP">+81</option>
+                </select><input type="tel" number="[0,9]{10}"><br><br>
+                <!-- misclenious -->
+                <label class="details" for="">Communication Skills (out of 10):&emsp;&emsp;&emsp;</label>
+                <input type="range" max="10" min="0">
+                <br><br>
+                <!-- batch selection -->
+                <label class="details" for="">Pick Appropriate Batch</label>
+                <select name="" id="batch">
+                    <optgroup label="Senior Batch">Senior Batch
+                    <option value="Proficent">Proficent</option>
+                    <option value="Ambitious">Proficent</option></optgroup>
+                    <optgroup label="Junior Batch">Junior Batch
+                    <option value="Scholar">Proficent</option>
+                    <option value="Visionary">Proficent</option></optgroup>
+                </select><br><br>
+                <textarea class="details1" name="feedback" placeholder="Tell Something About Yourself"
+                    style="margin-left: 250px;"></textarea><br><br>
+                <input type="submit">
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
